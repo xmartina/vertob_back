@@ -1,6 +1,6 @@
 <?php
-//error_reporting(E_ALL);
-//ini_set('display_errors', 1);
+error_reporting(E_ALL);
+ini_set('display_errors', 1);
 define("WEB_TITLE","Zyntra Bank"); // Change Bank Name
 define("WEB_URL","https://dashboard.vertob.online"); // Change No "/" Ending splash
 define("WEB_EMAIL","contact@vertob.online"); // Change Your Website Email
