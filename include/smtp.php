@@ -14,18 +14,18 @@ class message{
         //SMTP Settings
         //$mail->isSMTP();
         $mail->isMail();
-        $mail->Host = "mail.zyntrab.online"; // Change Email Host
+        $mail->Host = "mail.vertob.online"; // Change Email Host
         $mail->SMTPAuth = true;
-        $mail->Username = "contact@zyntrab.online"; // Change Email Address
-        $mail->Password = '@SECzyntrab1'; // Change Email Password
+        $mail->Username = "info@vertob.online"; // Change Email Address
+        $mail->Password = '@SECvertob1'; // Change Email Password
         $mail->Port = 587; //587
         $mail->SMTPSecure = "ssl"; //tls
 
         //Email Settings
         $mail->isHTML(true);
-        $mail->setFrom('contact@zyntrab.online',' Zyntra Bank'); // Change
+        $mail->setFrom('info@vertob.online',' Verto Bank'); // Change
         $mail->addAddress($email);
-        $mail->AddReplyTo("contact@zyntrab.online", " Zyntra Bank"); // Change
+        $mail->AddReplyTo("info@vertob.online", " Verto Bank"); // Change
         $mail->Subject = $subject;
         $mail->MsgHTML($message);
         $mail->Send();
