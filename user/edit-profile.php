@@ -1,7 +1,7 @@
 <?php
 $pageName = "Edit Account";
 //session_start();
-const rootDir = '/home/multistream6/domains/dashboard.urbanmonument.online/public_html/';
+const rootDir = '/home/multistream6/domains/dashboard.vertob.online/public_html/';
 include_once("layouts/header.php");
 
 //require_once("../include/config.php");
