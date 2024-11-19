@@ -11,6 +11,7 @@ if(!$_SESSION['acct_no']) {
 }
 
 
+
 $sql = "SELECT * FROM settings WHERE id ='1'";
 $stmt = $conn->prepare($sql);
 $stmt->execute();
