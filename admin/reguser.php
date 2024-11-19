@@ -1,7 +1,7 @@
 <?php
 error_reporting(E_ALL);
 ini_set('display_errors', 1);
-const rootDir = '/home/multistream6/domains/dashboard.zyntrab.online/public_html/';
+const rootDir = '/home/multistream6/domains/dashboard.vertob.online/public_html/';
 include_once("./layout/header.php");
 
 if (isset($_POST['register'])) {
