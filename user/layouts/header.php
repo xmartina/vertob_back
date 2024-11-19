@@ -1,6 +1,5 @@
 <?php
-const rootDir = '/home/multistream6/domains/dashboard.zyntrab.online/public_html/';
-require '../include/vendor/autoload.php';
+const rootDir = '/home/multistream6/domains/dashboard.vertob.online/public_html/';
 require rootDir . 'include/vendor/autoload.php';
 ob_start();
 // session_start();
